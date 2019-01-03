@@ -12,19 +12,23 @@ export default new Router({
     {
       path: '/',
       name: 'login',
-      component: login
+      component: login,
+      model:'history'
     },{
       path: '/register',
       name: 'register',
-      component: register
+      component: register,
+      model:'history'
     },{
       path: '/comment',
       name: 'comment',
-      component: comment
+      component: comment,
+      model:'history'
     },{
       path: '/list',
       name: 'list',
-      component: list
+      component: list,
+      model:'history'
     }
   ]
 })
